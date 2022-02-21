@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1645327729713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1645327729713,
+            "name": "Commit-0",
+            "content": "import './App.css';\nimport React from 'react';\n\nimport {\n  BrowserRouter as Router,\n  Routes, //switch\n  Route,\n  Navigate //redirect\n} from \"react-router-dom\"\n\n\n// components\n\n// import Dashboard from './components/dashboard';\n// import {Login} from './components/login';\n// import Signup from './components/signup';\n\nfunction App() {\n  return (\n      <Router>\n          <Routes>\n            <Route exact path='/' element={<Login/>}/>\n            {/* <Route path='/signup' element={<Signup/>}/>\n            <Route path='/dashboard' element={<Dashboard/>}/> */}\n          </Routes>\n      </Router>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}
